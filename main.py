@@ -7,5 +7,11 @@ def main():
     match choice:
         case "1":
             print("You chose rock")
+        case "2":
+            print("You chose paper")
+        case "3":
+            print("You chose scissors")
+        case _:
+            print("Not a valid choice")
 
 main()
