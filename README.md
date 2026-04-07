@@ -1,1 +1,1 @@
-Returns the options you chose as "You chose 'choice'"
+simple rock paper scissors with random ai choice (only works with rock, others return what you chose)
