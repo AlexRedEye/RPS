@@ -19,9 +19,19 @@ def main():
                 else:
                     print("Its a tie")
             case "2":
-                print("You chose paper")
+                if ai_choice == "Scissors":
+                    print("Ai chose Scissors you lose")
+                elif ai_choice == "Rock":
+                    print("Ai chose scissors you win")
+                else:
+                    print("Its a tie")
             case "3":
-                print("You chose scissors")
+                if ai_choice == "Rock":
+                    print("Ai chose Rock you lose")
+                elif ai_choice == "Paper":
+                    print("Ai chose paper you win")
+                else:
+                    print("Its a tie")
             case _:
                 print("Not a valid choice")
 
